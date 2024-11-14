@@ -1,7 +1,6 @@
 from odoo import models, fields
 import logging
 
-
 class DemoClass(models.Model):
    _name = 'cron.demo'
    student_name = fields.Char(string='Name of the student', required=True)
